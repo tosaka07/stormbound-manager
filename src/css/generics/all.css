@@ -1,0 +1,12 @@
+/* ITCSS: Generic */
+/* Ground-zero styles(Normalize.css, resets, box-sizing). */
+@import "sanitize.css";
+@import "anchor.css";
+@import "box-sizing.css";
+@import "form.css";
+
+*,
+*::before,
+*::after {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
