@@ -18,7 +18,6 @@
     "vue-router": "^2.7.0"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^7.1.1",
@@ -67,15 +66,6 @@
     "ora": "^1.2.0",
     "phantomjs-prebuilt": "^2.1.14",
     "post-loader": "^1.1.2",
-    "postcss": "^6.0.11",
-    "postcss-apply": "^0.8.0",
-    "postcss-currentcolor": "0.0.2",
-    "postcss-custom-properties": "^6.1.0",
-    "postcss-flexbugs-fixes": "^3.2.0",
-    "postcss-import": "^10.0.0",
-    "postcss-nesting": "^4.1.0",
-    "postcss-overflow-wrap": "0.0.1",
-    "postcss-sorting": "^3.0.1",
     "pug": "^2.0.0-rc.4",
     "pug-loader": "^2.3.0",
     "rimraf": "^2.6.0",
