@@ -14,6 +14,7 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "sanitize.css": "^5.0.0",
     "vue": "^2.4.2",
     "vue-router": "^2.7.0"
   },
@@ -66,6 +67,17 @@
     "ora": "^1.2.0",
     "phantomjs-prebuilt": "^2.1.14",
     "post-loader": "^1.1.2",
+    "postcss": "^6.0.11",
+    "postcss-apply": "^0.7.0",
+    "postcss-assets": "^5.0.0",
+    "postcss-cli": "^4.0.0",
+    "postcss-currentcolor": "0.0.2",
+    "postcss-custom-properties": "^6.0.1",
+    "postcss-flexbugs-fixes": "^3.0.0",
+    "postcss-import": "^10.0.0",
+    "postcss-nesting": "^4.0.1",
+    "postcss-overflow-wrap": "0.0.1",
+    "postcss-sorting": "^2.0.1",
     "pug": "^2.0.0-rc.4",
     "pug-loader": "^2.3.0",
     "rimraf": "^2.6.0",
