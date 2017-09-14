@@ -10,42 +10,5 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: "NotoSansCJKjp-Jxck";
-  font-style: normal;
-  font-weight: 300;
-  src: url("font/NotoSansCJKjp-Jxck-Light.woff2") format("woff2"), url("font/NotoSansCJKjp-Jxck-Light.woff") format("woff");
-}
-
-@font-face {
-  font-family: "NotoSansCJKjp-Jxck";
-  font-style: normal;
-  font-weight: 400;
-  src: url("font/NotoSansCJKjp-Jxck-Regular.woff2") format("woff2"), url("font/NotoSansCJKjp-Jxck-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: "NotoSansCJKjp-Jxck";
-  font-style: normal;
-  font-weight: 700;
-  src: url("font/NotoSansCJKjp-Jxck-Bold.woff2") format("woff2"), url("font/NotoSansCJKjp-Jxck-Bold.woff") format("woff");
-}
-
-html,
-body {
-  @apply --text-break;
-  height: 100%;
-  overflow-y: hidden;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
-body {
-  position: relative;
-  min-width: 375px;
-  font-family: "Noto Sans", "Noto Sans CJK JP", "NotoSansCJKjp-Jxck", sans-serif;
-  font-size: 12px;
-  line-height: 1.5;
-  color: var(--color-base-mineShaft);
-  background-color: var(--color-base-concrete);
-}
+@import "css/all.css";
 </style>
