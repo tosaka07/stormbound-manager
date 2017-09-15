@@ -1,0 +1,11 @@
+.Sidemenu {
+  height: 100%;
+  width: 300px;
+  background: #aaa;
+}
+
+@media (max-width: 480px) {
+  .Sidemenu {
+    display: none;
+  }
+}
