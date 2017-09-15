@@ -1,9 +1,8 @@
 .MainContainer {
   height: 100%;
-  /* transform: translate(-200px, 0); */
-  flex: 1;
+  transform: translate(200px, 0);
   background: red;
-  transition: transform .3s ease-in-out,width .3s ease-in-out;
+  transition: transform .3s ease-in-out,width .3s ease-in-out, display .3s ease-in-out;
 }
 
 @media (max-width: 767px) {

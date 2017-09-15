@@ -1,13 +1,15 @@
 .Sidemenu {
   height: 100%;
   width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: #aaa;
   transition: transform .3s ease-in-out,width .3s ease-in-out;
 }
 
 .Sidemenu--open .Sidemenu {
-  display: none;
-  transform: translate(-200px, 0);
+  transform: translate(200px, 0);
 }
 
 @media (max-width: 767px) {
