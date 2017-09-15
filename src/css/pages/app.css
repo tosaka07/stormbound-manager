@@ -1,5 +1,11 @@
 #app {
-  display: flex;
   height: 100%;
-  grid-template-columns: 150px 1fr;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Content {
+  flex: 1;
+  display: flex;
 }
