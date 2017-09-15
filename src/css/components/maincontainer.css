@@ -1,5 +1,13 @@
 .MainContainer {
   height: 100%;
+  /* transform: translate(-200px, 0); */
   flex: 1;
   background: red;
+  transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .MainContainer {
+    transform: translate(0, 0);
+  }
 }

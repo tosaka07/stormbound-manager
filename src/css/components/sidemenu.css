@@ -1,11 +1,17 @@
 .Sidemenu {
   height: 100%;
-  width: 300px;
+  width: 200px;
   background: #aaa;
+  transition: transform .3s ease-in-out,width .3s ease-in-out;
 }
 
-@media (max-width: 480px) {
+.Sidemenu--open .Sidemenu {
+  display: none;
+  transform: translate(-200px, 0);
+}
+
+@media (max-width: 767px) {
   .Sidemenu {
-    display: none;
+    transform: translate(-200px, 0);
   }
 }
