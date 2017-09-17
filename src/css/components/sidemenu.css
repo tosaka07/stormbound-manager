@@ -9,11 +9,15 @@
 }
 
 .Sidemenu--open .Sidemenu {
-  transform: translate(200px, 0);
+  transform: translate(-200px, 0);
 }
 
 @media (max-width: 767px) {
   .Sidemenu {
     transform: translate(-200px, 0);
+  }
+
+  .Sidemenu--open .Sidemenu {
+    transform: translate(0px, 0);
   }
 }

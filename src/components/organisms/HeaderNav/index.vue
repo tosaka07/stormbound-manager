@@ -1,5 +1,5 @@
 <template lang="pug">
-  .HeaderNav
+  .HeaderNav(v-on:click="toggleMenu")
     | {{msg}}
 </template>
 

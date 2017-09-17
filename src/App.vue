@@ -1,5 +1,5 @@
 <template lang="pug">
-  #app
+  #app(v-bind:class="{ 'Sidemenu--open': isOpen }")
     HeaderNav
     .Content
       SideMenu
@@ -10,6 +10,7 @@
 import HeaderNav from '@/components/organisms/HeaderNav/index';
 import SideMenu from '@/components/organisms/SideMenu/index';
 import MainContainer from '@/components/organisms/MainContainer/index';
+import store from '@/store';
 
 export default {
   components: {
@@ -18,6 +19,9 @@ export default {
     MainContainer,
   },
   name: 'app',
+  computed: {
+    isOpen: () => store.getters['menu/isOpen'],
+  },
 };
 </script>
 
