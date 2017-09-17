@@ -2,8 +2,8 @@
   #app(v-bind:class="{ 'Sidemenu--open': isOpen }")
     HeaderNav
     .Content
-      SideMenu
       MainContainer
+      SideMenu
 </template>
 
 <script>
