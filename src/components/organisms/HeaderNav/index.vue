@@ -1,6 +1,7 @@
 <template lang="pug">
-  .HeaderNav(v-on:click="toggleMenu")
-    | {{msg}}
+  .HeaderNav
+    .HeaderNav__menu(v-on:click="toggleMenu")
+      Hamburger
 </template>
 
 <script src='./script.js'></script>

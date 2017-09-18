@@ -17,6 +17,7 @@
     "reset-css": "^2.2.1",
     "sanitize.css": "^5.0.0",
     "vue": "^2.4.2",
+    "vue-awesome": "^2.3.3",
     "vue-router": "^2.7.0",
     "vuex": "^2.4.0"
   },
@@ -77,6 +78,7 @@
     "postcss-custom-properties": "^6.0.1",
     "postcss-flexbugs-fixes": "^3.0.0",
     "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
     "postcss-nesting": "^4.0.1",
     "postcss-overflow-wrap": "0.0.1",
     "postcss-sorting": "^2.0.1",

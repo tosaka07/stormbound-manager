@@ -1,7 +1,6 @@
 .MainContainer {
   height: 100%;
-  /* transform: translate(200px, 0); */
-  background: red;
+  background: var(--color-bg-base);
   transition: transform .3s ease-in-out,width .3s ease-in-out, display .3s ease-in-out;
 }
 
