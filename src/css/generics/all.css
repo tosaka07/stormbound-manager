@@ -1,6 +1,6 @@
 /* ITCSS: Generic */
 /* Ground-zero styles(Normalize.css, resets, box-sizing). */
-@import "sanitize.css";
+@import 'reset-css/reset.css';
 @import "anchor.css";
 @import "box-sizing.css";
 @import "form.css";

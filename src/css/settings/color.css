@@ -14,7 +14,7 @@
   --color-basic-skyblue: #00b2ff;
 
   /* 背景色 */
-  --color-bg-base: #fff;
+  --color-bg-base: #eee;
   --color-bg-primary: #484848;
   --color-bg-primaryLight: #7e7e7e;
   --color-bg-secondary: #a4a4a4;
@@ -31,9 +31,10 @@
   --color-bg-error: #f00;
   --color-bg-errorLight: #ff7e7e;
   /* テキスト色 */
-  --color-text-default: #484848;
-  --color-text-primary: #484848;
+  --color-text-default: #858585;
+  --color-text-primary: #858585;
   --color-text-secondary: #8c8c8c;
+  --color-text-light: #F5F5F5;
   --color-text-accent: #f00;
   --color-text-accentLight: #ff7e7e;
   --color-text-anchor: #00b2ff;

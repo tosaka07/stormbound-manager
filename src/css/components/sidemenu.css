@@ -1,0 +1,28 @@
+.Sidemenu {
+  height: 100%;
+  width: 200px;
+  padding: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--color-text-light);
+  transform: translate(-200px, 0);
+  background: var(--color-bg-primary);
+  transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
+
+.Sidemenu--open .Sidemenu {
+  transform: translate(0, 0);
+}
+
+@media (max-width: 767px) {
+  .Sidemenu {
+    left: auto;
+    right: 0;
+    transform: translate(200px, 0); 
+  }
+
+  .Sidemenu--open .Sidemenu {
+    transform: translate(0px, 0);
+  }
+}
