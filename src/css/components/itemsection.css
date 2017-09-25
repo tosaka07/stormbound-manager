@@ -1,0 +1,21 @@
+.ItemSection {
+
+}
+
+.ItemSection__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ItemSection__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.ItemSection__cards > div {
+  margin: 0 8px 8px 0;
+}

@@ -1,13 +1,20 @@
-import HeaderNav from '@/components/organisms/HeaderNav/index';
+import store from '@/store/';
+import Hamburger from '@/components/atoms/Hamburger';
+import types from '@/store/action_types';
 
 export default {
   name: 'sideMenu',
   components: {
-    HeaderNav,
+    Hamburger,
   },
   data() {
     return {
       msg: 'asdfasdfasd',
     };
+  },
+  methods: {
+    toggleMenu: () => {
+      store.dispatch(types.MENU_CLOSE);
+    },
   },
 };

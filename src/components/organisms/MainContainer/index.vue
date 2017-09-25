@@ -1,7 +1,8 @@
 <template lang="pug">
   .MainContainer
     HeaderNav
-    router-view
+    .MainContainer__router
+      router-view
 </template>
 
 <script src='./script.js'></script>

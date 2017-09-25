@@ -2,3 +2,13 @@
   height: 100%;
   background: var(--color-bg-base);
 }
+
+.MainContainer__router {
+  padding: 2em 8em;
+}
+
+@media (max-width: 767px) {
+  .MainContainer__router {
+    padding: 2em 4em;
+  }
+}

@@ -6,11 +6,24 @@
   left: 0;
   color: var(--color-text-light);
   transform: translate(-320px, 0);
-  background: var(--color-bg-primary);
+  background: var(--color-bg-base);
   transition: transform .4s cubic-bezier(0.0, 0.0, 0.2, 1), width .4s cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
 .Application--menuopen .Sidemenu {
   transform: translate(0, 0);
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.Sidemenu__nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 50px;
+  padding: 14px 15px;
+  background-color: var(--color-bg-base);
+}
+
+.Sidemenu__navMenu {
+  display: flex;
 }
