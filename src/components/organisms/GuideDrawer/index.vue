@@ -1,7 +1,7 @@
 <template lang="pug">
-  .Sidemenu
-    HeaderNav
-    h1 {{ msg }}
+.GuideDrawer
+  Cover
+  SideMenu
 </template>
 
 <script src='./script.js'></script>

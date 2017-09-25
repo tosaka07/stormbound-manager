@@ -1,5 +1,6 @@
 import store from '@/store/';
 import Hamburger from '@/components/atoms/Hamburger';
+import types from '@/store/action_types';
 
 export default {
   name: 'HeaderNav',
@@ -13,8 +14,7 @@ export default {
   },
   methods: {
     toggleMenu: () => {
-      console.log('おされた');
-      store.dispatch('menu/toggleMenu');
+      store.dispatch(types.MENU_TOGGLE);
     },
   },
 };

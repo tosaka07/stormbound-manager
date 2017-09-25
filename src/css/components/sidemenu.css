@@ -1,28 +1,16 @@
 .Sidemenu {
   height: 100%;
   width: 200px;
-  padding: 14px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   color: var(--color-text-light);
   transform: translate(-200px, 0);
   background: var(--color-bg-primary);
-  transition: transform .3s ease-in-out,width .3s ease-in-out;
+  transition: transform .3s ease-in-out, width .3s ease-in-out;
 }
 
-.Sidemenu--open .Sidemenu {
+.Application--menuopen .Sidemenu {
   transform: translate(0, 0);
-}
-
-@media (max-width: 767px) {
-  .Sidemenu {
-    left: auto;
-    right: 0;
-    transform: translate(200px, 0); 
-  }
-
-  .Sidemenu--open .Sidemenu {
-    transform: translate(0px, 0);
-  }
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.4);
 }

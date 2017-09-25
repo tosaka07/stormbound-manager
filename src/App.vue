@@ -1,22 +1,19 @@
 <template lang="pug">
-  #app(v-bind:class="{ 'Sidemenu--open': isOpen }")
-    HeaderNav
-    .Content
-      MainContainer
-      SideMenu
+.Application(v-bind:class="{ 'Application--menuopen': isOpen }")
+  .Content
+    MainContainer
+    GuideDrawer
 </template>
 
 <script>
-import HeaderNav from '@/components/organisms/HeaderNav/index';
-import SideMenu from '@/components/organisms/SideMenu/index';
 import MainContainer from '@/components/organisms/MainContainer/index';
+import GuideDrawer from '@/components/organisms/GuideDrawer/index';
 import store from '@/store';
 
 export default {
   components: {
-    HeaderNav,
-    SideMenu,
     MainContainer,
+    GuideDrawer,
   },
   name: 'app',
   computed: {

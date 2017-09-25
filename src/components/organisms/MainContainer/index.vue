@@ -1,5 +1,6 @@
 <template lang="pug">
   .MainContainer
+    HeaderNav
     router-view
 </template>
 
