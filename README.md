@@ -1,6 +1,6 @@
-# hearthstone-deck-manager
+# stormbound-manager
 
-> Hearthstone deck management Project.
+> Stormbound management Project.
 
 ## Build Setup
 

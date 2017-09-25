@@ -1,7 +1,7 @@
 {
-  "name": "hearthstone-deck-manager",
+  "name": "stormbound-manager",
   "version": "1.0.0",
-  "description": "Hearthstone deck management Project.",
+  "description": "Stormbound management Project.",
   "author": "tosaka07 <tosaka.tech@gmail.com>",
   "private": true,
   "scripts": {
