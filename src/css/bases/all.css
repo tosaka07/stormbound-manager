@@ -26,6 +26,12 @@ body {
   @apply --text-break;
   height: 100%;
   overflow-y: hidden;
+  background-image: url('assets/bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
